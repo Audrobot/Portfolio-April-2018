@@ -1,0 +1,181 @@
+/* GENERAL STYLES */
+body {
+  font-family: 'Petrona', serif;
+}
+
+#about, #skills, #portfolio {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+#contact {
+  padding: 12% 10%;
+  text-align: center;
+}
+
+img { 
+  border-radius: 50%;
+  width: 20%;
+  margin: 0 30px;
+}
+
+h1 {
+  color: rgb(73, 58, 58);
+  font-size: 50px;
+  font-family: 'Cabin Sketch', cursive;
+  margin-bottom: 0;
+}
+
+h2 {
+  color: rgb(73, 58, 58);
+  font-size: 30px;
+  line-height: 55px;
+  letter-spacing: 1.5px;
+  margin-top: 5px;
+}
+
+p {
+  color: rgb(73, 58, 58);
+  font-size: 25px;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+  padding: 20px;
+}
+
+
+/* NAV */
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-right: 35px;
+  padding-top: 25px;
+}
+
+nav li {
+  padding: 10px 20px;
+}
+
+nav a {
+  color: rgb(73, 58, 58);
+  font-family: 'Petrona', serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  text-transform: lowercase; 
+}
+
+nav a:hover {
+  color: rgb(226, 164, 177);
+  text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+  color: rgb(37, 37, 37);
+  background: linear-gradient(
+    180deg, rgb(255, 255, 255), 
+    rgb(222, 225, 228));
+  font-size: 25px;
+  margin-top: 100px;
+  padding: 10% 10%;
+}
+
+header h1 {
+  font-family: 'Petrona', serif;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+header h1 span {
+  color: rgb(206, 155, 165);
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 80px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header h1 span:hover {
+  text-shadow:
+    -1px -1px 0 rgb(37, 37, 37),
+    1px -1px 0 rgb(37, 37, 37),
+    -1px 1px 0 rgb(37, 37, 37),
+    1px 1px 0 rgb(37, 37, 37);
+}
+
+
+/* ABOUT SECTION */
+#about {
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.65),
+      rgba(255, 255, 255, 1)
+    ), url('../images/faultlines_700.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/* SKILLS SECTION */
+#skills ul {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 10% 5%;
+}
+
+#skills li {
+  color: rgb(73, 58, 58);
+  background-color: rgb(230, 233, 233);
+  box-shadow: 5px 5px 2px 2px rgb(236, 210, 215);
+  border-radius: 300px;
+  font-size: 25px;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+}
+  
+/* FOOTER */
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .svg-inline--fa {
+  color: rgb(226, 164, 177);
+  font-size: 45px;
+  margin: 0 20px;
+}
+
+footer .svg-inline--fa:hover {
+  color: rgb(211, 250, 227);
+}
+
+#contact a {
+  color: rgb(73, 58, 58);
+}
+
+#contact a:hover {
+  color: rgb(226, 164, 177);
+}
+
+.fa-chevron-up {
+  color: rgb(226, 164, 177);
+  z-index: 100;
+  font-size: 30px;
+  position: relative;
+  left: 40em;
+  bottom: 2em;
+}
+
