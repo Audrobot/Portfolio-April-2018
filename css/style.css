@@ -174,8 +174,10 @@ footer .svg-inline--fa:hover {
   color: rgb(226, 164, 177);
   z-index: 100;
   font-size: 30px;
-  position: relative;
+  position: fixed;
   left: 40em;
   bottom: 2em;
 }
+
+
 

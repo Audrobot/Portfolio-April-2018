@@ -24,9 +24,9 @@ $(document).ready(function(){
 
   $(window).scroll(function(){
       if ($(window).scrollTop() > 100) {
-          $('#scroll').fadeIn();
+          $('#scroll').fadeIn('slow');
       } else {
-          $('#scroll').fadeOut();
+          $('#scroll').fadeOut('slow');
       }
   });
 
