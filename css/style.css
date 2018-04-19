@@ -161,8 +161,8 @@ footer .svg-inline--fa {
 }
 
 footer .svg-inline--fa:hover {
-  transition: color .55s ease-in-out;
   color: rgb(199, 179, 209);
+  transition: color .55s ease-in-out;
 }
 
 #contact a {
@@ -170,8 +170,8 @@ footer .svg-inline--fa:hover {
 }
 
 #contact a:hover {
+  color: rgb(199, 179, 209);
   transition: color .55s ease-in-out;
-  color: rgb(226, 164, 177);
 }
 
 .fa-chevron-up {
@@ -184,8 +184,8 @@ footer .svg-inline--fa:hover {
 }
 
 .fa-chevron-up:hover {
-  transition: color .55s ease-in-out;
   color: rgb(199, 179, 209);
+  transition: color .55s ease-in-out;
 }
 
 
